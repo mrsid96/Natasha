@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "natasha-vision",
+  "private_key_id": "104b02e62edb48e6c79901c2b2234df3540907e6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9xxY4l6r613P8\nPbEkMrBDEJ6fk+IXO0nrZUT4CNk9Hg1FmEqnMMuQ8baUfVvPdUqlay+Ygkdd4dzX\n8F9SVaWlWv/OfXxgBRT6ABbWPbRH0dcxqqkoDZWmBkpsozzhCP0h2xJihddizDhc\nDJ9RncqNw6u3ul4B6wVzUBY6nuVlQJp2yPOZ8zjnSq6gE6O3rGiEAcVEKxHhUh2N\nvcmDnmO3P3agbCqxa48vrN0y1kjB+pohSvvT5NCRgEuMqraCP0jWYF5OLM943tlZ\nV/48OiWER5j1IKjlC2w2n1DjRfO9OhgLhhd0hkVPDoMuW5dNU+/cwjeB58gvM+1Y\n/XflXhy3AgMBAAECggEAYEzuUblk4fUCvjTv9tZh6yY71+5LBE7pq7Gv1c1nr0PY\nqEAnYb+5DMwbQi56sENspZRGirVRUaqTTmCDflxHuij7NeUnf/IUOuhgrkaRfQBW\nmrVnMRPzpFP84DPVaLwO92cbZTNVoKTQ1KTzE49mgZmRQaIoogCIu4MgRI7tCPtm\nUpcdQB97F6002SWDx7AGF0gW+0aBNZ+cZEE30epdEbOzt4iK2eDNLgcTVtWpIieu\n8idRlqqdOOEF8a59IYlY++CA9PfNVMGEn9sUB1hqVwmSopOSxy3LzIo//mrDjurf\n93aV2TX8f1TgT9wC6oZUViNjUvbPWwfwJN6P7WMwAQKBgQD2Sfr5kqj7HAnIQWpt\nQKi0/qIwjqC3CijxXiqdmWhp3aGc6AS2/eOhLlBMB84SfiHz66FiYmNHdIPKZ2a+\nVpsB2OWndarsXTCiU2sd1zHB/31FEc/0eUtoA9UAZAh8ldoNMgB2dbYIvNjMLO7f\n8CusZbYPPcRKzREwPfJhyp4tAQKBgQDFQq+t2zjJ5sdcruKhs8R5Bcmj1SbdLfyC\nbwYNxthwfSy+GzY6mGgJevR7QrvZdgewqiEKli1SZpdk+ztbYVqLD4L9n7jc6i0/\n8SyVvNDT+SbftfFFjPBWBihgz7Uq1vXCSX2k0KiIhgF+zjdNc98sZg2AOB0ROsoo\neBrgT+7xtwKBgQCTZKDrfWbdqOD91JBRw/FzKDR+ZM0v3ce084sDeEyxlq7ijURN\nE1KIIoRxi/Y6wPum06xoicMqf0Nj/U/St1fa2ihOeLAK9pZlfxDK8f9YP4ODs25F\nu9Vx8WEm87bUgIXXgcYfHsELJ6GDR5zJrh0k9lXndyqjLWiM+3W0KqNRAQKBgBxH\nMg4XVi3DcqL7wytxLOI4jS56WQbuF7vPFKwW7GI735UlK4H85TUutiuRZoKHJBUU\nXoY4/yhH4r4sMdcovqUexSV8pzCsNW5sMXsJxVoN5p+9YmgZCz8ZxOIUBKGujS6c\nAHIHI5HmvAIkp9LnoH+p5ZeS87/LkL16ckfjzZpDAoGBALwNDjTdbG49O+8lsVTc\n8exxpA4XfBkPKM4Hva6Px6Y/BRX/S76TiPN3eYn71JaDYkWyk2Buty5P+o5EuO37\nzxnMoHspmEerq02j9uFoFNu65L60KZCRT7Sfx+NW8+aTdsRhug+/W6AZqSt1F7tL\nZE1bnZ8hJfHG1rXFiVdB3Aad\n-----END PRIVATE KEY-----\n",
+  "client_email": "natasha@natasha-vision.iam.gserviceaccount.com",
+  "client_id": "112723988706500160675",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/natasha%40natasha-vision.iam.gserviceaccount.com"
+}

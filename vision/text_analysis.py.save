@@ -1,0 +1,29 @@
+th2client.client import GoogleCredentials
+
+credentials = GoogleCredentials.get_application_default()
+service = discovery.build('vision', 'v1', credentials=credentials)
+
+try:
+    with open('image.jpg', 'rb') as image:
+        image_content = base64.b64encode(image.read())
+        service_request = service.images().annotate(body={
+            'requests': [{
+                'image': {
+                    'content': image_content.decode('UTF-8')
+                },
+                'features': [{
+                    'type': 'TEXT_DETECTION',
+                    'maxResults': 10
+                }]
+            }]
+        })
+        response = service_request.execute()
+        x = response['responses'][0]['fullTextAnnotation']['text']
+        x = str(x).replace('\n','. ')
+        data = { 'data': x}
+	print data
+        fo = open("../main/pipe.ali","w")
+        json.dump(data,fo)
+        fo.close()
+except:
+    print 'Sorry couldnt connect to internet'

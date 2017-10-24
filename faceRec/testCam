@@ -1,0 +1,16 @@
+from SimpleCV import *
+
+cam = Camera()
+
+while True:
+template = Image(‘D:\data base\Rubiks cube\sample.jpg’)
+img = cam.getImage()
+match = img.findKeypointMatch(template)
+
+if match:
+match.draw(width = 2)
+else:
+print “No Matches Found”
+
+img.show()
+

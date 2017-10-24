@@ -1,0 +1,59 @@
+Language model created by QuickLM on Tue Jan 17 05:46:44 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 9 words
+
+\data\
+ngram 1=9
+ngram 2=14
+ngram 3=13
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2341
+-1.4472 GOOD -0.2852
+-1.7482 HELLO -0.2430
+-1.2711 HEY -0.2061
+-1.7482 MORNING -0.2688
+-1.1461 NATASHA -0.2249
+-1.7482 NIGHT -0.2688
+-1.4472 REBOOT -0.2430
+
+\2-grams:
+-0.8451 <s> GOOD 0.0000
+-1.1461 <s> HELLO 0.0000
+-0.6690 <s> HEY 0.0000
+-1.1461 <s> REBOOT 0.0000
+-0.6021 GOOD MORNING 0.0000
+-0.6021 GOOD NIGHT 0.0000
+-0.3010 HELLO </s> -0.3010
+-0.7782 HEY </s> -0.3010
+-0.4771 HEY NATASHA 0.0000
+-0.3010 MORNING NATASHA -0.0969
+-0.4260 NATASHA </s> -0.3010
+-0.9031 NATASHA REBOOT 0.0000
+-0.3010 NIGHT NATASHA -0.0969
+-0.3010 REBOOT </s> -0.3010
+
+\3-grams:
+-0.6021 <s> GOOD MORNING
+-0.6021 <s> GOOD NIGHT
+-0.3010 <s> HELLO </s>
+-0.7782 <s> HEY </s>
+-0.4771 <s> HEY NATASHA
+-0.3010 <s> REBOOT </s>
+-0.3010 GOOD MORNING NATASHA
+-0.3010 GOOD NIGHT NATASHA
+-0.6021 HEY NATASHA </s>
+-0.6021 HEY NATASHA REBOOT
+-0.3010 MORNING NATASHA </s>
+-0.3010 NATASHA REBOOT </s>
+-0.3010 NIGHT NATASHA </s>
+
+\end\
